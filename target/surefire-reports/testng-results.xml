@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up chrome driver with Url https://www.webstaurantstore.com/]]>
+    </line>
+    <line>
+      <![CDATA[Searching of text begins.....]]>
+    </line>
+    <line>
+      <![CDATA[stainless work table is being entered in Search Item text]]>
+    </line>
+    <line>
+      <![CDATA[Search button has been clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Searching of text ends.....]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32454" started-at="2021-05-31T13:14:28Z" finished-at="2021-05-31T13:15:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32454" started-at="2021-05-31T13:14:28Z" finished-at="2021-05-31T13:15:01Z">
+      <class name="testScripts.SearchTest">
+        <test-method status="PASS" signature="settinUpDriver()[pri:0, instance:testScripts.SearchTest@6a2bcfcb]" name="settinUpDriver" is-config="true" duration-ms="7367" started-at="2021-05-31T13:14:28Z" finished-at="2021-05-31T13:14:36Z">
+        </test-method>
+        <test-method status="PASS" signature="verifySearchResult()[pri:0, instance:testScripts.SearchTest@6a2bcfcb]" name="verifySearchResult" duration-ms="24410" started-at="2021-05-31T13:14:36Z" finished-at="2021-05-31T13:15:00Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.SearchTest@6a2bcfcb]" name="tearDown" is-config="true" duration-ms="663" started-at="2021-05-31T13:15:00Z" finished-at="2021-05-31T13:15:01Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

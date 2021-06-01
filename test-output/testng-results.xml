@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up chrome driver with Url https://www.webstaurantstore.com/]]>
+    </line>
+    <line>
+      <![CDATA[Searching of text begins.....]]>
+    </line>
+    <line>
+      <![CDATA[stainless work table is being entered in Search Item text]]>
+    </line>
+    <line>
+      <![CDATA[Search button has been clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Searching of text ends.....]]>
+    </line>
+    <line>
+      <![CDATA[Setting up chrome driver with Url https://www.webstaurantstore.com/]]>
+    </line>
+    <line>
+      <![CDATA[Searching of text begins.....]]>
+    </line>
+    <line>
+      <![CDATA[stainless work table is being entered in Search Item text]]>
+    </line>
+    <line>
+      <![CDATA[Search button has been clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Searching of text ends.....]]>
+    </line>
+    <line>
+      <![CDATA[last index of search result is 59]]>
+    </line>
+    <line>
+      <![CDATA[Scrolling to the end for last index ]]>
+    </line>
+    <line>
+      <![CDATA[last element in search has been clicked ]]>
+    </line>
+    <line>
+      <![CDATA[View Cart in notification has been clicked ]]>
+    </line>
+    <line>
+      <![CDATA[View Cart button has been clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Empty Cart Button has been clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Are you sure empty Cart has been clicked ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81911" started-at="2021-05-31T13:15:23Z" finished-at="2021-05-31T13:16:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="81911" started-at="2021-05-31T13:15:23Z" finished-at="2021-05-31T13:16:45Z">
+      <class name="testScripts.SearchTest">
+        <test-method status="PASS" signature="settinUpDriver()[pri:0, instance:testScripts.SearchTest@5f341870]" name="settinUpDriver" is-config="true" duration-ms="6388" started-at="2021-05-31T13:15:23Z" finished-at="2021-05-31T13:15:29Z">
+        </test-method>
+        <test-method status="PASS" signature="verifySearchResult()[pri:0, instance:testScripts.SearchTest@5f341870]" name="verifySearchResult" duration-ms="27041" started-at="2021-05-31T13:15:29Z" finished-at="2021-05-31T13:15:56Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.SearchTest@5f341870]" name="tearDown" is-config="true" duration-ms="662" started-at="2021-05-31T13:15:56Z" finished-at="2021-05-31T13:15:57Z">
+        </test-method>
+        <test-method status="PASS" signature="settinUpDriver()[pri:0, instance:testScripts.SearchTest@5f341870]" name="settinUpDriver" is-config="true" duration-ms="6005" started-at="2021-05-31T13:15:57Z" finished-at="2021-05-31T13:16:03Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyAddingIntoCart()[pri:0, instance:testScripts.SearchTest@5f341870]" name="verifyAddingIntoCart" duration-ms="41133" started-at="2021-05-31T13:16:03Z" finished-at="2021-05-31T13:16:44Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.SearchTest@5f341870]" name="tearDown" is-config="true" duration-ms="661" started-at="2021-05-31T13:16:44Z" finished-at="2021-05-31T13:16:45Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
